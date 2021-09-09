@@ -10,12 +10,13 @@ body{
   margin: 100px auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .card
 {
   position: relative;
-  margin: 20px 0;
+  margin: 20px 16px;
   width: 300px;
   height: 400px;
   background: #f0e9e9;
@@ -157,7 +158,6 @@ body{
 }
 
 body {
-  background: black;
   margin-top: 5em;
   display: flex;
   min-height: 100vh;
